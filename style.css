@@ -1,0 +1,34 @@
+body {
+  background-color: #c9f;
+}
+
+main {
+  width: 100%;
+  min-height: 300px;
+}
+
+.pretty-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+section {
+  background-color: #C9F;
+  width: 45%;
+  min-height: 40px;
+  display: inline-block;
+}
+
+.color1 {
+  background-color: lightgoldenrodyellow;
+}
+
+.color2 {
+  background-color: #FC9;
+}
+
+.border {
+  border: 6px double grey;
+}

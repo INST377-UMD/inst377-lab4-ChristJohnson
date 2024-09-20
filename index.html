@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>cjohns54 Lab 4</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./sticky.css" />
+</head>
+
+<body>
+  <h1>INST377 - Lab 4</h1>
+
+  <main class="pretty-flex">
+
+    <section class="pretty-flex border" id="alert-section">
+      <form>
+        <input id="alert-name" type="text" required />
+        <input id="alert-btn" type="submit" value="Alert Me" />
+      </form>
+    </section>
+
+    <section class="pretty-flex border" id="color-section">
+      <button id="color-btn" type="button">Change Color</button>
+    </section>
+
+    <section class="pretty-flex border" id="regex-section">
+      <form>
+        <input id="regex-name" type="text" required />
+        <input id="regex-btn" type="submit" value="Validate Text" />
+      </form>
+    </section>
+
+    <section class="pretty-flex border" id="cat-section">
+      <button id="cat-btn" type="button">Add Text</button>
+    </section>
+
+  </main>
+
+  <section class="board">
+
+    <h2 class="title">Requirements</h2>
+
+    <div class="sticky">
+      <p class="title">General</p>
+
+      <ul>
+        <li x>[1] 4 sections</li>
+        <li x>[1] all sections have same style</li>
+        <li x>[1] sections need borders</li>
+      </ul>
+    </div>
+
+    <div class="sticky">
+      <p class="title">Alert Me Section</p>
+      <ul>
+        <li x>[1] must be form</li>
+        <li x>[1] form required takes name</li>
+        <li x>[1] form has "Alert Me" button</li>
+        <li x>[4] on button: `Hi {{name}}!`</li>
+      </ul>
+    </div>
+
+    <div class="sticky">
+      <p class="title">Change Color Section</p>
+      <ul>
+        <li x>[1] "Change Color" button</li>
+        <li x>[5] toggle color of page</li>
+        <li x>[2] toggled color persists until toggled again</li>
+      </ul>
+    </div>
+
+    <div class="sticky">
+      <p class="title">Text Tester Section</p>
+      <ul>
+        <li x>[1] form element</li>
+        <li x>[1] "Validate Text" button</li>
+        <li x>[6] on button: validates text has no special characters (alert otherwise)</li>
+      </ul>
+    </div>
+
+    <div class="sticky">
+      <p class="title">Add Text Section</p>
+      <ul>
+        <li x>[1] "Add Text" button</li>
+        <li x>[4] on button: page heading extended with "Add Text".</li>
+      </ul>
+    </div>
+  </section>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

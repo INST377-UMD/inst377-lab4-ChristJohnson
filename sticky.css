@@ -1,0 +1,67 @@
+/******************************
+ * STICKY.css                 *
+ * ========================== *
+ * Author: ChristJohnson      *
+ * Date: 9/5/2024             *
+ * License: MIT               *
+ ******************************/
+
+*.board {
+  width: 80%;
+  margin: 0px 10%;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sticky {
+  background-color: lightgoldenrodyellow;
+  margin: 16px;
+  padding: 16px;
+  display: inline-block;
+  width: fit-content;
+  min-width: 200px;
+  max-width: 400px;
+  height: fit-content;
+}
+
+.sticky * {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sticky ul {
+  padding-inline-start: 0;
+  list-style: square inside;
+}
+
+.sticky li {
+  width: auto;
+  margin-left: 0px;
+  padding: 0px 8px;
+}
+
+.sticky li[o] {
+  background-color: lightcoral;
+  list-style-type: circle;
+}
+
+.sticky li[x] {
+  background-color: lightgreen;
+  list-style-type: disc;
+}
+
+
+/******************************
+ * end STICKY.css             *
+ ******************************/
